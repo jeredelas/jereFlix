@@ -1,14 +1,37 @@
-body{  
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 
 
-    color:	#A9A9A9;
-    background-color:#F8F8FF;
-    
+
+body{
+
+    color:#F0F8FF;
+    background-color:  #3d3b3b ;
+    margin: 0px;
+   margin-bottom: 100px;
+    font-family: "roboto mono", monospace;
     }
-    
+    header{
+        border-bottom: solid 2px #FFD700;
+        margin: 20p;
+        font-size: 32px;
+        color:#0000FF;
+
+
+  }
+
+    section{
+        padding-bottom: 80px;
+        padding-top: 80px;
+        background: gray;
+        display: flex;
+        justify-content: center;
+    }s
     h1{
-    
-    
-    color:aqua;
-    
+
+     color: #ADD8E6;
+     font-size: 40px;
+    }
+
+    p{
+        font-size: 20px;
     }
